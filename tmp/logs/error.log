@@ -1,0 +1,56 @@
+2013-07-16 02:43:06 Error: [MissingControllerException] Controller class ItemsController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemsController',
+  'plugin' => NULL,
+)
+Request URL: /inventory/items
+Stack Trace:
+#0 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-16 02:46:40 Error: [MissingControllerException] Controller class ItemController could not be found.
+Exception Attributes: array (
+  'class' => 'ItemController',
+  'plugin' => NULL,
+)
+Request URL: /inventory/item
+Stack Trace:
+#0 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-16 02:47:10 Error: [MissingControllerException] Controller class ActivityController could not be found.
+Exception Attributes: array (
+  'class' => 'ActivityController',
+  'plugin' => NULL,
+)
+Request URL: /inventory/activity
+Stack Trace:
+#0 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-16 02:47:27 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /inventory/users
+Stack Trace:
+#0 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-16 02:47:45 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /inventory/users/add
+Stack Trace:
+#0 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-16 02:55:18 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /inventory/users
+Stack Trace:
+#0 C:\cakephp\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\cakephp\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\inventory\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
